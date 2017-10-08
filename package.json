@@ -5,7 +5,8 @@
   "main": "dist/range.js",
   "types": "dist/range.d.ts",
   "scripts": {
-    "install": "tsc",
+    "clean": "rm -rf dist",
+    "build": "tsc",
     "test": "jasmine-ts \"src/*.spec.ts\""
   },
   "repository": {
