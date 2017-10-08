@@ -1,0 +1,27 @@
+{
+  "name": "ts-range",
+  "version": "1.0.0",
+  "description": "python-like range() implementation for typescript",
+  "main": "dist/range.js",
+  "types": "dist/range.d.ts",
+  "scripts": {
+    "install": "tsc",
+    "test": "jasmine-ts \"src/*.spec.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/forana/ts-range.git"
+  },
+  "author": "alex@alexforan.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forana/ts-range/issues"
+  },
+  "homepage": "https://github.com/forana/ts-range#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^2.6.0",
+    "jasmine-ts": "^0.2.1",
+    "typescript": "^2.5.3"
+  }
+}
