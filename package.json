@@ -1,6 +1,6 @@
 {
   "name": "ts-range",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "python-like range() implementation for typescript",
   "main": "dist/range.js",
   "types": "dist/range.d.ts",
