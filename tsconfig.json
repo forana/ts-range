@@ -8,6 +8,6 @@
         "declaration": true
     },
     "exclude": [
-        "src/*.spec.ts"
+        //"src/*.spec.ts"
     ]
 }

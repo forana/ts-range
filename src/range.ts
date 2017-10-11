@@ -9,7 +9,7 @@ export default function range(end: number, start: number = 0, step: number = 1):
     // if the param order was range(start, end), typescript would require python's range(10) to be written as range(undefined, 10).
     // a little hacky silliness here to prevent a lot of silliness elsewhere.
     if (sign(end - start) !== sign(step)) {
-        step = -step;
+        [end, start] = [start, end];
     }
 
     const n: number[] = [];
